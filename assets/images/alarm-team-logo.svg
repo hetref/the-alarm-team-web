@@ -1,0 +1,25 @@
+<svg width="220" height="115" viewBox="0 0 220 115" xmlns="http://www.w3.org/2000/svg">
+  <!-- House outline with integrated T shapes -->
+  <g id="house-logo">
+    <!-- Main house outline -->
+    <path d="M40 60 L40 90 L80 90 L80 60 L60 40 Z" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Horizontal T extending from left side -->
+    <path d="M40 70 L20 70 L20 75 L40 75" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Vertical T extending from roof (chimney) -->
+    <path d="M70 40 L70 25 L75 25 L75 40" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Blue A inside house (acting as door) -->
+    <path d="M50 90 L50 70 L55 70 L55 75 L60 75 L60 70 L65 70 L65 90 Z" fill="#0066cc"/>
+    
+    <!-- Doorknob (small circle) -->
+    <circle cx="62" cy="82" r="2" fill="#000000"/>
+  </g>
+  
+  <!-- Text: THE ALARM TEAM -->
+  <text x="110" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0066cc">THE ALARM TEAM</text>
+  
+  <!-- Text: ABQ Metro -->
+  <text x="110" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="normal" fill="#000000">ABQ METRO</text>
+</svg> 

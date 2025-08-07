@@ -1,0 +1,632 @@
+/* The Alarm Team Custom Styles */
+:root {
+    --alarm-team-blue: #0066cc; /* Primary blue */
+    --alarm-team-light-blue: #b1e6ff; /* Light blue */
+    --alarm-team-black: #000000; /* Black */
+    --alarm-team-white: #ffffff; /* White for contrast */
+    --alarm-team-light-gray: #f8f9fa; /* Very light gray for subtle backgrounds */
+}
+
+/* Header and Navigation */
+.main-header {
+    background-color: var(--alarm-team-white);
+    border-bottom: 2px solid var(--alarm-team-blue);
+}
+
+.header-top {
+    background-color: var(--alarm-team-black);
+    color: var(--alarm-team-white);
+}
+
+.header-top .info-list a {
+    color: var(--alarm-team-white);
+}
+
+.header-top .social-box a {
+    color: var(--alarm-team-white);
+}
+
+.header-top .social-box a:hover {
+    color: var(--alarm-team-light-blue);
+}
+
+.header-upper {
+    background-color: var(--alarm-team-white);
+}
+
+.main-menu .navigation > li > a {
+    color: var(--alarm-team-black);
+}
+
+.main-menu .navigation > li > a:hover,
+.main-menu .navigation > li.current > a {
+    color: var(--alarm-team-blue);
+}
+
+.quote-btn {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.quote-btn:hover {
+    background-color: var(--alarm-team-light-blue);
+    color: var(--alarm-team-black);
+}
+
+/* Banner Section */
+.banner-section {
+    background-color: var(--alarm-team-black);
+}
+
+.banner-section .slide {
+    background-color: var(--alarm-team-black);
+}
+
+.banner-section .title {
+    color: var(--alarm-team-blue);
+}
+
+.banner-section h1 {
+    color: var(--alarm-team-white);
+}
+
+.banner-section .text {
+    color: var(--alarm-team-white);
+}
+
+.theme-btn.btn-style-one {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.theme-btn.btn-style-one:hover {
+    background-color: var(--alarm-team-light-blue);
+    color: var(--alarm-team-black);
+}
+
+.talk {
+    color: var(--alarm-team-blue);
+}
+
+/* Featured Section */
+.featured-section {
+    background-color: var(--alarm-team-light-gray);
+}
+
+.featured-block .inner-box {
+    background-color: var(--alarm-team-white);
+    border: 2px solid var(--alarm-team-blue);
+}
+
+.featured-block .icon-box {
+    color: var(--alarm-team-blue);
+}
+
+.featured-block h5 a {
+    color: var(--alarm-team-black);
+}
+
+.featured-block h5 a:hover {
+    color: var(--alarm-team-blue);
+}
+
+/* Security Section */
+.security-section {
+    background-color: var(--alarm-team-white);
+}
+
+.security-section .title {
+    color: var(--alarm-team-blue);
+}
+
+.security-section h2 {
+    color: var(--alarm-team-black);
+}
+
+.security-section .bold-text {
+    color: var(--alarm-team-black);
+}
+
+.read-more {
+    color: var(--alarm-team-blue);
+}
+
+.read-more:hover {
+    color: var(--alarm-team-black);
+}
+
+/* Premium Section */
+.premium-section {
+    background-color: var(--alarm-team-light-gray);
+}
+
+.premium-section .sec-title h2 {
+    color: var(--alarm-team-black);
+}
+
+.premium-section .sec-title .text {
+    color: var(--alarm-team-black);
+}
+
+.security-block .inner-box {
+    background-color: var(--alarm-team-white);
+    border: 2px solid var(--alarm-team-blue);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.security-block .inner-box:hover {
+    background-color: var(--alarm-team-light-blue);
+}
+
+.security-block .icon {
+    color: var(--alarm-team-blue);
+    font-size: 48px;
+}
+
+.security-block h5 a {
+    color: var(--alarm-team-black);
+}
+
+.security-block h5 a:hover {
+    color: var(--alarm-team-blue);
+}
+
+.security-block .text {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+/* Make all security blocks equal height */
+.security-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.security-block .inner-box {
+    width: 100%;
+    min-height: 300px;
+}
+
+/* Call to Action Section */
+.call-to-action-section {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.call-to-action-section .phone {
+    color: var(--alarm-team-light-blue);
+}
+
+.call-to-action-section .text span {
+    color: var(--alarm-team-light-blue);
+}
+
+.theme-btn.btn-style-two {
+    background-color: var(--alarm-team-white);
+    color: var(--alarm-team-blue);
+    border: 2px solid var(--alarm-team-white);
+}
+
+.theme-btn.btn-style-two:hover {
+    background-color: var(--alarm-team-light-blue);
+    border-color: var(--alarm-team-light-blue);
+    color: var(--alarm-team-black);
+}
+
+/* Gallery Section */
+.gallery-section {
+    background-color: var(--alarm-team-white);
+}
+
+.gallery-block .overlay-box {
+    background-color: rgba(0, 102, 204, 0.8);
+}
+
+/* Fluid Section */
+.fluid-section-one {
+    background-color: var(--alarm-team-blue);
+}
+
+.fluid-section-one h2 {
+    color: var(--alarm-team-white);
+}
+
+.fluid-section-one .text {
+    color: var(--alarm-team-white);
+}
+
+.skill-item .skill-title {
+    color: var(--alarm-team-black);
+}
+
+.skill-item .bar-inner .bar {
+    background-color: var(--alarm-team-blue);
+}
+
+/* Team Section */
+.team-section {
+    background-color: var(--alarm-team-white);
+}
+
+.team-section .sec-title h2 {
+    color: var(--alarm-team-black);
+}
+
+.team-section .sec-title .text {
+    color: var(--alarm-team-black);
+}
+
+.team-member .lower-content h5 a {
+    color: var(--alarm-team-black);
+}
+
+.team-member .lower-content h5 a:hover {
+    color: var(--alarm-team-blue);
+}
+
+.team-member .designation {
+    color: var(--alarm-team-blue);
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background-color: var(--alarm-team-black);
+    color: var(--alarm-team-white);
+}
+
+.testimonial-section .sec-title h2 {
+    color: var(--alarm-team-white);
+}
+
+.testimonial-section .sec-title .text {
+    color: var(--alarm-team-white);
+}
+
+.testimonial-block .title {
+    color: var(--alarm-team-light-blue);
+}
+
+.testimonial-block .text {
+    color: var(--alarm-team-white);
+}
+
+.testimonial-block .author-box h6 {
+    color: var(--alarm-team-white);
+}
+
+.testimonial-block .designation {
+    color: var(--alarm-team-light-blue);
+}
+
+/* News Section */
+.news-section {
+    background-color: var(--alarm-team-white);
+}
+
+.news-section .sec-title h2 {
+    color: var(--alarm-team-black);
+}
+
+.news-section .sec-title .text {
+    color: var(--alarm-team-black);
+}
+
+.news-block h5 a {
+    color: var(--alarm-team-black);
+}
+
+.news-block h5 a:hover {
+    color: var(--alarm-team-blue);
+}
+
+.news-block .text {
+    color: var(--alarm-team-black);
+}
+
+.news-block .read-more {
+    color: var(--alarm-team-blue);
+}
+
+.news-block .read-more:hover {
+    color: var(--alarm-team-black);
+}
+
+/* Call to Action Section Two */
+.call-to-action-section-two {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.call-to-action-section-two .title {
+    color: var(--alarm-team-light-blue);
+}
+
+.call-to-action-section-two h1 {
+    color: var(--alarm-team-white);
+}
+
+.call-to-action-section-two .text {
+    color: var(--alarm-team-white);
+}
+
+/* Clients Section */
+.clients-section {
+    background-color: var(--alarm-team-white);
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--alarm-team-black);
+    color: var(--alarm-team-white);
+}
+
+.main-footer .upper-box {
+    background-color: var(--alarm-team-black);
+}
+
+.main-footer .contact-info-box strong {
+    color: var(--alarm-team-light-blue);
+}
+
+.main-footer .footer-widget h5 {
+    color: var(--alarm-team-white);
+}
+
+.main-footer .footer-widget .text {
+    color: var(--alarm-team-white);
+}
+
+.main-footer .list-link a {
+    color: var(--alarm-team-white);
+}
+
+.main-footer .list-link a:hover {
+    color: var(--alarm-team-light-blue);
+}
+
+.main-footer .social-links a {
+    color: var(--alarm-team-white);
+}
+
+.main-footer .social-links a:hover {
+    color: var(--alarm-team-light-blue);
+}
+
+.main-footer .copyright {
+    color: var(--alarm-team-white);
+}
+
+.main-footer .copyright a {
+    color: var(--alarm-team-light-blue);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    background-color: var(--alarm-team-black);
+}
+
+.mobile-menu .nav-logo {
+    background-color: var(--alarm-team-white);
+}
+
+/* Sticky Header */
+.sticky-header {
+    background-color: var(--alarm-team-white);
+    border-bottom: 2px solid var(--alarm-team-blue);
+}
+
+/* Scroll to top */
+.scroll-to-top {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.scroll-to-top:hover {
+    background-color: var(--alarm-team-light-blue);
+    color: var(--alarm-team-black);
+}
+
+/* Preloader */
+.preloader {
+    background-color: var(--alarm-team-blue);
+}
+
+/* Custom logo styling */
+.logo-box {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 10px;
+    background: transparent;
+}
+
+.alarm-team-logo, .alarm-team-logo-small {
+    height: 90px;
+    max-width: 220px;
+    object-fit: contain;
+    display: block;
+    margin: 0 0 0 10px;
+    background: transparent;
+    border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+    .alarm-team-logo, .alarm-team-logo-small {
+        height: 24px;
+        max-width: 48px;
+        margin-left: 0;
+    }
+}
+
+/* Button styling - Ultra specific selectors to override all conflicting styles */
+.main-header .btn-box .quote-btn,
+.btn-book-consultation,
+.theme-btn.btn-style-one.btn-book-consultation,
+.theme-btn.btn-style-two.btn-book-consultation,
+a.theme-btn.btn-style-two.btn-book-consultation,
+a.btn-book-consultation {
+    background-color: var(--alarm-team-blue) !important;
+    color: var(--alarm-team-white) !important;
+    border: 2px solid var(--alarm-team-blue) !important;
+    padding: 12px 30px !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    transition: all 0.3s ease !important;
+    display: inline-block !important;
+}
+
+.main-header .btn-box .quote-btn:hover,
+.btn-book-consultation:hover,
+.theme-btn.btn-style-one.btn-book-consultation:hover,
+.theme-btn.btn-style-two.btn-book-consultation:hover,
+a.theme-btn.btn-style-two.btn-book-consultation:hover,
+a.btn-book-consultation:hover {
+    background-color: var(--alarm-team-light-blue) !important;
+    border-color: var(--alarm-team-light-blue) !important;
+    color: var(--alarm-team-black) !important;
+}
+
+/* Feature icons styling */
+.feature-icon {
+    font-size: 48px;
+    color: var(--alarm-team-blue);
+    margin-bottom: 15px;
+}
+
+/* Section backgrounds */
+.section-blue-bg {
+    background-color: var(--alarm-team-blue);
+    color: var(--alarm-team-white);
+}
+
+.section-black-bg {
+    background-color: var(--alarm-team-black);
+    color: var(--alarm-team-white);
+}
+
+.section-white-bg {
+    background-color: var(--alarm-team-white);
+    color: var(--alarm-team-black);
+} 
+
+/* Awards Carousel Section */
+.awards-section {
+    background: #000;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.awards-carousel {
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.awards-track {
+    display: flex;
+    animation: scroll-awards 30s linear infinite;
+    width: max-content;
+}
+
+.award-item {
+    flex: 0 0 auto;
+    margin: 0 30px;
+    text-align: center;
+    min-width: 200px;
+}
+
+.award-logo {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.award-logo:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.award-text {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* Awards Block Styles */
+.awards-block {
+    margin: 0 15px;
+}
+
+.awards-block .inner-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.awards-block .inner-box:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
+.awards-block .icon-box {
+    margin-bottom: 20px;
+}
+
+.awards-block .icon-box img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.awards-block h5 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.awards-block .text {
+    color: #b1e6ff;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@keyframes scroll-awards {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation on hover */
+.awards-carousel:hover .awards-track {
+    animation-play-state: paused;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .award-item {
+        margin: 0 15px;
+        min-width: 150px;
+    }
+    
+    .awards-track {
+        animation-duration: 20s;
+    }
+    
+    .awards-block .icon-box img {
+        max-width: 120px;
+    }
+} 
