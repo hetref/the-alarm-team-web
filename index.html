@@ -9,7 +9,7 @@
 <link href="assets/css/responsive.css" rel="stylesheet">
 <link href="assets/css/alarm-team-custom.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
@@ -30,7 +30,7 @@
     <!-- Preloader -->
     <div class="preloader"></div>
  	
- 	<!-- Main Header-->
+	<!-- Main Header-->
     <header class="main-header header-style-one">
     	
 		<!-- Header Top -->
@@ -43,8 +43,8 @@
 					
 						<!-- Info List -->
                         <ul class="info-list">
-							<li><span class="icon fa fa-phone-square"></span> <a href="tel:+505-555-0123"> Call : 505.555.0123</a></li>
-							<li><span class="icon fa fa-envelope"></span> <a href="mailto:info@thealarmteam.com">Email : info@thealarmteam.com</a></li>
+							<li><span class="icon fa fa-phone-square" style="color: #0066cc;"></span> <a href="tel:+505-555-0123"> Call : 505.555.0123</a></li>
+							<li><span class="icon fa fa-envelope" style="color: #0066cc;"></span> <a href="mailto:info@thealarmteam.com">Email : info@thealarmteam.com</a></li>
 						</ul>
 						
                     </div>
@@ -53,10 +53,10 @@
 					<div class="top-right pull-right">
 						<!-- Social Box -->
 						<ul class="social-box">
-							<li><a href="#" class="fa fa-facebook-f"></a></li>
-							<li><a href="#" class="fa fa-twitter"></a></li>
-							<li><a href="#" class="fa fa-google"></a></li>
-							<li><a href="#" class="fa fa-linkedin"></a></li>
+							<li><a href="#" class="fa fa-brands fa-facebook-f" style="color: #0066cc;"></a></li>
+							<li><a href="#" class="fa fa-brands fa-x-twitter" style="color: #0066cc;"></a></li>
+							<li><a href="#" class="fa fa-brands fa-google" style="color: #0066cc;"></a></li>
+							<li><a href="#" class="fa fa-brands fa-linkedin" style="color: #0066cc;"></a></li>
 						</ul>
 					</div>
 					
@@ -89,19 +89,14 @@
 							
 							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 								<ul class="navigation clearfix">
-									<li class="current"><a href="index.html">Home</a></li>
+									<li><a href="index.html">Home</a></li>
 									<li class="dropdown"><a href="about.html" onclick="window.location.href='about.html'; return false;">About</a>
 										<ul>
 											<li><a href="team.html">Team</a></li>
-											<li><a href="faq.html">Our Providers</a></li>
+											<li><a href="ourproviders.html">Our Providers</a></li>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="#" onclick="window.location.href='services.html'; return false;">Services</a>
-										<ul>
-											<li><a href="services.html">Services</a></li>
-											<li><a href="service-detail.html">Service Detail</a></li>
-										</ul>
-									</li>
+									<li class="dropdown"><a href="#" onclick="window.location.href='ourproviders.html'; return false;">Our Providers</a></li>
 									<li><a href="career.html">Career</a></li>
 									
 									<li><a href="contact.html">Contact us</a></li>
@@ -131,14 +126,11 @@
 				
             </div>
         </div>
-        <!--End Header Upper-->
-        
-		<!-- Sticky Header  -->
-        <div class="sticky-header">
+		 <div class="sticky-header">
             <div class="auto-container clearfix">
                 <!--Logo-->
                 <div class="logo pull-left">
-                    <a href="index.html" title="The Alarm Team"><img src="assets/images/alarm-team-logo.png" alt="The Alarm Team" title="The Alarm Team" class="alarm-team-logo-small"></a>
+                    <a href="index.html" title=""><img src="assets/images/alarm-team-logo.png" class="alarm-team-logo-small"></a>
                 </div>
                 <!--Right Col-->
                 <div class="pull-right">
@@ -157,12 +149,11 @@
             <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/alarm-team-logo.png" alt="The Alarm Team" title="The Alarm Team" class="alarm-team-logo"></a></div>
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
             </nav>
         </div><!-- End Mobile Menu -->
-	
-    </header>
+		</header>
     <!-- End Main Header -->
 	
 	<!--Banner Section-->
@@ -179,7 +170,7 @@
 							<h1>We strive to create systems for <br> families & businesses that meet their needs</h1>
 							<div class="text">Professional security solutions tailored to your specific requirements <br> with expert consultation and installation.</div>
 							<div class="btns-box clearfix">
-								<a href="contact.html" class="theme-btn btn-style-one btn-book-consultation"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a>
+								<a href="contact.html" class="theme-btn btn-style-one btn-book-consultation"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a><br>
 								<a href="contact.html" class="talk">Talk With Us 505.555.0123</a>
 							</div>
 						</div>
@@ -187,18 +178,20 @@
 				</div>
 				
 			</div>
-			
 			<div class="slide">
 				<div class="image-layer" style="background-image:url(assets/images/main-slider/image-2.jpg)"></div>
 				<div class="auto-container">
 					<!-- Content Boxed -->
-					<div class="content-boxed alternate clearfix">
+					<div class="content-boxed">
 						<div class="inner-boxed">
 							<div class="title">Real security with real people</div>
-							<h1>Our team is trained to help you understand your security needs and educate you through our process</h1>
+							<h1>Our team is trained to help you understand your security needs and educate you through our process</h1><br>
+							<div class="text"></div>
 							<div class="btns-box clearfix">
-								<a href="contact.html" class="theme-btn btn-style-one btn-book-consultation"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a>
+								<a href="contact.html" class="theme-btn btn-style-one btn-book-consultation"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a><br>
 								<a href="contact.html" class="talk">Talk With Us 505.555.0123</a>
+							</div>
+						</div>
 							</div>
 						</div>
 					</div>
@@ -224,7 +217,7 @@
 								<div class="icon-box">
 									<span class="icon flaticon-alarm-1" style="color: #0066cc;"></span>
 								</div>
-								<h5><a href="#">24/7 Monitoring</a></h5>
+								<h5><span style="color: #000000;">24/7 <br>Monitoring</span></h5>
 							</div>
 						</div>
 					</div>
@@ -234,9 +227,9 @@
 						<div class="inner-box">
 							<div class="content">
 								<div class="icon-box">
-										<span class="icon flaticon-security-camera" style="color: #0066cc;"></span>
+    				<span class="icon flaticon-security-camera" style="color: #0066cc;"></span>
 								</div>
-								<h5><a href="#">Priority Level One <br> Response</a></h5>
+								<h5><span style="color: #000000;">Priority Level One <br> Response</span></h5>
 							</div>
 						</div>
 					</div>
@@ -246,9 +239,10 @@
 						<div class="inner-box">
 							<div class="content">
 								<div class="icon-box">
-									<span class="icon bi bi-hammer" style="color: #0066cc;"></span>
+									<span class="icon fa fa-thin fa-hammer" style="color: #0066cc;"></span>
+								
 								</div>
-								<h5><a href="#">Professionally <br> Installed</a></h5>
+								<h5><span style="color: #000000;">Professionally <br> Installed</span></h5>
 							</div>
 						</div>
 					</div>
@@ -272,7 +266,7 @@
 						<h2>More About The Alarm Team</h2>
 						<div class="bold-text">We are a local team of alarm experts here in the ABQ metro (Albuquerque, Santa Fe, Las Lunas, and Rio Rancho). Our alarm consulting agency specializes in connecting our clients to the best security offers in the industry. We strive to educate local markets while providing great systems. We work with the industry's top providers to create offers designed to help home owners and businesses get the most out of working with us. Unlike product locked dealerships we have the ability to consult multiple options before signing you up. You can read more about our business model and product providers below.</div>
 						<div class="text"></div>
-						<a href="#" class="read-more">Read More about The Alarm Team <span class="fa fa-angle-right"></span></a>
+						<a href="about.html" class="read-more" style="color: #000000;" onmouseover="this.style.color='#000000';" onmouseout="this.style.color='#000000';">Read More about The Alarm Team <span class="fa fa-angle-right"></span></a>
 					</div>
 				</div>
 				
@@ -427,16 +421,18 @@
 				<!-- Title Column -->
 				<div class="title-column col-lg-8 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<div class="phone flaticon-call-3"></div>
-						<div class="text">
-							<span>Book your FREE alarm consultation and talk with one of our consultants to design your system! Then claim your FREE equipment and insurance discounts.</span>
-						 </div>
+						<div class="cta-flex-row" style="display: flex; align-items: center; gap: 20px;">
+							<div class="fa fa-phone-square fa-3x" style="color: #ffffff;"></div>
+							<div class="text" style="margin: 0;">
+								<span style="color: #ffffff;">Book your FREE alarm consultation and talk with one of our consultants to design your system! Then claim your FREE equipment and insurance discounts.</span>
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- Button Column -->
 				<div class="button-column col-lg-4 col-md-12 col-sm-12">
 					<div class="inner-column">
-						<a href="contact.html" class="theme-btn btn-style-two btn-book-consultation" style="background-color: #0066cc !important; color: #ffffff !important; border: 2px solid #0066cc !important;"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a>
+						<a href="contact.html" class="theme-btn btn-style-one btn-book-consultation" style="background-color: #ffffff !important; color: #000000 !important; border: 2px solid #0066cc !important;"><span class="txt"><i class="flaticon-shield-1"></i> Book Consultation</span></a>
 					</div>
 				</div>
 			</div>
@@ -454,7 +450,7 @@
 				<div class="overlay-box">
 					<div class="overlay-inner">
 						<a href="https://www.youtube.com/watch?v=kxPCFljwJws" class="lightbox-image video-box"><span class="fa fa-play"><i class="ripple"></i></span></a>
-						<h3><a href="#">Read more about our top provider</a></h3>
+						<h3><a href="ourproviders.html">Read more about our top provider</a></h3>
 						<div class="text">We work primarily with Safe Home Direct to provide our top offer via our Full-Service Security Program with them.</div>
 					</div>
 				</div>
@@ -894,9 +890,9 @@
 							<div class="column col-lg-4 col-md-4 col-sm-12">
 								<ul class="contact-info-box">
 									<li>
-										<span class="icon flaticon-call-3"></span>
+										<span class="icon flaticon-call-3" style="color: #0066cc;"></span>
 										Give us a Call?
-										<strong>505.555.0123</strong>
+										<strong style="color: #ffffff;">505.555.0123</strong>
 									</li>
 								</ul>
 							</div>
@@ -905,9 +901,9 @@
 							<div class="column col-lg-4 col-md-4 col-sm-12">
 								<ul class="contact-info-box">
 									<li>
-										<span class="icon flaticon-email-5"></span>
+										<span class="icon flaticon-email-5" style="color: #0066cc;"></span>
 										Our Email
-										<strong>info@thealarmteam.com</strong>
+										<strong style="color: #ffffff;">info@thealarmteam.com</strong>
 									</li>
 								</ul>
 							</div>
@@ -916,9 +912,9 @@
 							<div class="column col-lg-4 col-md-4 col-sm-12">
 								<ul class="contact-info-box">
 									<li>
-										<span class="icon flaticon-in-time"></span>
+										<span class="icon flaticon-in-time" style="color: #0066cc;"></span>
 										When are we open?
-										<strong>9:00am - 6:00pm</strong>
+										<strong style="color: #ffffff;">9:00am - 6:00pm</strong>
 									</li>
 								</ul>
 							</div>
@@ -944,10 +940,10 @@
                                     </div>
 									<div class="text">The Alarm Team - Your local security experts serving the ABQ metro area with personalized security solutions and professional installation services.</div>
 									<div class="social-links">
-										<a href="#" class="fa fa-facebook"></a>
-										<a href="#" class="fa fa-twitter"></a>
-										<a href="#" class="fa fa-google"></a>
-										<a href="#" class="fa fa-linkedin"></a>
+										<a href="#" class="fa fa-brands fa-facebook" style="color: #0066cc;"></a>
+										<a href="#" class="fa fa-brands fa-x-twitter" style="color: #0066cc;"></a>
+										<a href="#" class="fa fa-brands fa-google" style="color: #0066cc;"></a>
+										<a href="#" class="fa fa-brands fa-linkedin" style="color: #0066cc;"></a>
 									</div>
 									<div class="copyright">
 									© 2024 The Alarm Team.<br>
