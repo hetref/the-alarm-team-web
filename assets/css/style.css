@@ -2380,7 +2380,7 @@ img{
 
 .premium-section{
 	position:relative;
-	padding:110px 0px 150px;
+	padding:40px 0px 80px;
 	background-color:#f0f2f5;
 }
 
@@ -3874,7 +3874,7 @@ img{
 
 .about-section{
 	position:relative;
-	padding:110px 0px 120px;
+	padding:80px 0px 80px;
 }
 
 .about-section .content-column{
@@ -3986,7 +3986,7 @@ img{
 
 .about-section .image-column .inner-column{
 	position:relative;
-	padding-left:120px;
+	padding-left:70px;
 }
 
 .about-section .image-column .image{
@@ -6461,7 +6461,7 @@ img{
 	width:50px;
 	height:5px;
 	z-index:1;
-	background-color:#7cb434;
+	background-color:#0066d4;
 	-webkit-transition:all 600ms ease;
 	-moz-transition:all 600ms ease;
 	-ms-transition:all 600ms ease;
@@ -6652,7 +6652,7 @@ img{
     font-weight: 500;
     border-radius: 3px;
     text-transform: uppercase;
-    background-color: #7cb434;
+    background-color: #0066d4;
     transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -webkit-transition: all 500ms ease;
