@@ -841,6 +841,14 @@ img{
 	position:relative;
 }
 
+@media screen and (max-width: 768px) {
+	.main-header .header-upper .inner-container{
+		display:flex;
+		justify-content: space-between;
+		align-items:center;
+	}
+}
+
 .main-header .nav-outer{
 	position:relative;
 	float:right;
@@ -853,6 +861,12 @@ img{
 
 .main-header .header-upper .logo-box .logo{
 	position:relative;
+}
+
+@media screen and (max-width: 768px) {
+	.main-header .header-upper .logo-box {
+		width: fit-content !important;
+	}
 }
 
 .main-header .outer-box{
@@ -1028,7 +1042,7 @@ img{
 
 .sticky-header .main-menu .navigation > li:hover > a,
 .sticky-header .main-menu .navigation > li.current > a{
-	color:#b1e6ff;
+	color:#0066cc;
 	background-color:inherit !important;
 }
 
@@ -1119,7 +1133,7 @@ img{
 .main-menu .navigation > li:hover > a,
 .main-menu .navigation > li.current > a{
 	opacity:1;
-	color:#b1e6ff;
+	color:#0066cc;
 }
 
 .main-menu .navigation > li > ul{
@@ -2198,7 +2212,7 @@ img{
 	content: "\f170";
 	right:-20px;
 	top:20px;
-	color:#b1e6ff;
+	color:#0066cc;
 	font-size:18px;
 	line-height:1em;
 	font-family: "Flaticon";
@@ -2208,7 +2222,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#b1e6ff;
+	color:#0066cc;
 	font-size:60px;
 	line-height:1em;
 }
@@ -2231,7 +2245,7 @@ img{
 }
 
 .featured-block .inner-box .content h5 a:hover{
-	color:#b1e6ff;
+	color:#0066cc;
 }
 
 /*** 
@@ -2313,7 +2327,7 @@ img{
 
 .security-section .content-column .read-more{
 	position:relative;
-	color:#b1e6ff;
+	color:#0066cc;
 	font-size:14px;
 	font-weight:500;
 	text-transform:uppercase;
@@ -3938,7 +3952,7 @@ img{
 
 .about-section .content-column .question a{
 	position:relative;
-	color:#7cb434;
+	color:#0066cc;
 	font-size:24px;
 }
 
