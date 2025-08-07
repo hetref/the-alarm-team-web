@@ -471,9 +471,14 @@
 }
 
 @media (max-width: 991px) {
+    .logo-box {
+        float: center !important;
+        display: flex;
+        justify-content: center;
+    }
     .alarm-team-logo, .alarm-team-logo-small {
-        height: 24px;
-        max-width: 48px;
+        height: 100px;
+        max-width: 100%;
         margin-left: 0;
     }
 }
