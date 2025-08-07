@@ -21,7 +21,7 @@
  	font-family: Flaticon;
 	font-style: normal;
 }
-.flaticon-hammer:before { content: "\f1f3"; }
+/* .flaticon-hammer:before { content: "\f1f3"; } */
 .flaticon-24-hours:before { content: "\f100"; }
 .flaticon-exam:before { content: "\f101"; }
 .flaticon-open-book:before { content: "\f102"; }

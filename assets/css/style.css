@@ -1830,7 +1830,7 @@ img{
 }
 
 .banner-section .content-boxed.alternate .inner-boxed{
-	max-width:540px;
+	max-width:600px;
 	width:100%;
 	float:right;
 }
@@ -2185,7 +2185,7 @@ img{
 
 .featured-block .inner-box:hover::before{
 	width:100%;
-	background-color:#f8952c;
+	background-color:#0066cc;
 }
 
 .featured-block .inner-box .content{
@@ -2424,7 +2424,7 @@ img{
 	content: '';
 	width: 0;
 	height: 0;
-	background: rgba(124,180,52,.6);
+	background: rgba(0, 102, 204, 0.6);
 	border-radius: 100%;
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -2498,7 +2498,7 @@ img{
 	width:0%;
 	top:0px;
 	height:50%;
-	background-color:#f89429;
+	background-color:#0066cc;
 	transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
 	-webkit-transition:all 900ms ease;
@@ -2513,7 +2513,7 @@ img{
 	bottom:0px;
 	width:0%;
 	height:50%;
-	background-color:#f89429;
+	background-color:#0066cc;
 	transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
 	-webkit-transition:all 900ms ease;
@@ -2535,7 +2535,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#7cb434;
+	color:#0066cc;
 	font-size:30px;
 	line-height:1em;
 	transition:all 900ms ease;
@@ -2607,7 +2607,8 @@ img{
 .call-to-action-section .title-column .phone{
 	position:absolute;
 	left:0px;
-	top:5px;
+	top:50%;
+	transform: translateY(-50%);
 	width:105px;
 	height:60px;
 	color:#0066cc;
@@ -2704,7 +2705,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:10px;
-	color:#7cb434;
+	color:#0066cc;
 	font-size:20px;
 	display:inline-block;
 	transition:all 0.3s ease;
@@ -2731,7 +2732,7 @@ img{
 }
 
 .video-gallery .overlay-box .overlay-inner h3 a:hover{
-	color:#7cb434;
+	color:#0066cc;
 }
 
 .video-gallery .overlay-box .text{
@@ -3214,7 +3215,7 @@ img{
 .testimonial-section .owl-dots .owl-dot.active,
 .testimonial-section .owl-dots .owl-dot:hover{
 	opacity:1;
-	background-color:#7cb434 !important;
+	background-color:#0066cc !important;
 }
 
 .testimonial-section.style-two{
@@ -3252,7 +3253,7 @@ img{
 	position:absolute;
 	left:0px;
 	top:0px;
-	color:#7cb434;
+	color:#0066cc;
 	font-size:22px;
 	line-height:1em;
 }
@@ -4051,7 +4052,7 @@ img{
 
 .featured-block-two .inner-box:hover::before{
 	width:100%;
-	background-color:#f8952c;
+	background-color:#0066cc;
 }
 
 .featured-block-two .inner-box:after{
