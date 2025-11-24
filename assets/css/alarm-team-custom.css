@@ -1,10 +1,15 @@
 /* The Alarm Team Custom Styles */
 :root {
-    --alarm-team-blue: #0066cc; /* Primary blue */
-    --alarm-team-light-blue: #b1e6ff; /* Light blue */
-    --alarm-team-black: #000000; /* Black */
-    --alarm-team-white: #ffffff; /* White for contrast */
-    --alarm-team-light-gray: #f8f9fa; /* Very light gray for subtle backgrounds */
+    --alarm-team-blue: #c1ad7b;
+    /* Primary blue */
+    --alarm-team-light-blue: #f8ebe9;
+    /* Light blue */
+    --alarm-team-black: #000000;
+    /* Black */
+    --alarm-team-white: #ffffff;
+    /* White for contrast */
+    --alarm-team-light-gray: #f8f9fa;
+    /* Very light gray for subtle backgrounds */
 }
 
 /* Header and Navigation */
@@ -34,12 +39,12 @@
     background-color: var(--alarm-team-white);
 }
 
-.main-menu .navigation > li > a {
+.main-menu .navigation>li>a {
     color: var(--alarm-team-black);
 }
 
-.main-menu .navigation > li > a:hover,
-.main-menu .navigation > li.current > a {
+.main-menu .navigation>li>a:hover,
+.main-menu .navigation>li.current>a {
     color: var(--alarm-team-blue);
 }
 
@@ -54,7 +59,7 @@
 }
 
 /* Dropdown menu item hover: white bg, black text */
-.main-header .main-menu .navigation > li.dropdown ul li a:hover {
+.main-header .main-menu .navigation>li.dropdown ul li a:hover {
     background: #fff !important;
     color: #000 !important;
 }
@@ -171,11 +176,11 @@
     font-size: 48px;
 }
 
-.security-block h5 a {
+.security-block h5 {
     color: var(--alarm-team-black);
 }
 
-.security-block h5 a:hover {
+.security-block h5:hover {
     color: var(--alarm-team-blue);
 }
 
@@ -424,6 +429,7 @@
     background-color: var(--alarm-team-white);
     border-bottom: 2px solid var(--alarm-team-blue);
 }
+
 .sticky-visible {
     position: fixed;
     top: 0;
@@ -432,9 +438,12 @@
     z-index: 9999;
     transition: top 0.3s;
 }
+
 .sticky-hidden {
-    top: -120px; /* adjust based on header height */
+    top: -120px;
+    /* adjust based on header height */
 }
+
 /* Scroll to top */
 .scroll-to-top {
     background-color: var(--alarm-team-blue);
@@ -460,8 +469,9 @@
     background: transparent;
 }
 
-.alarm-team-logo, .alarm-team-logo-small {
-    height: 90px;
+.alarm-team-logo,
+.alarm-team-logo-small {
+    height: 100px;
     max-width: 220px;
     object-fit: contain;
     display: block;
@@ -476,7 +486,9 @@
         display: flex;
         justify-content: center;
     }
-    .alarm-team-logo, .alarm-team-logo-small {
+
+    .alarm-team-logo,
+    .alarm-team-logo-small {
         height: 100px;
         max-width: 100%;
         margin-left: 0;
@@ -533,7 +545,7 @@ a.btn-book-consultation:hover {
 .section-white-bg {
     background-color: var(--alarm-team-white);
     color: var(--alarm-team-black);
-} 
+}
 
 /* Awards Carousel Section */
 .awards-section {
@@ -617,7 +629,7 @@ a.btn-book-consultation:hover {
 }
 
 .awards-block .text {
-    color: #b1e6ff;
+    color: #f8ebe9;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -626,6 +638,7 @@ a.btn-book-consultation:hover {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
@@ -642,11 +655,11 @@ a.btn-book-consultation:hover {
         margin: 0 15px;
         min-width: 150px;
     }
-    
+
     .awards-track {
         animation-duration: 20s;
     }
-    
+
     .awards-block .icon-box img {
         max-width: 120px;
     }
