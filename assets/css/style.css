@@ -3326,8 +3326,8 @@ img {
 
 .testimonial-block .inner-box .author-box .author-inner {
 	position: relative;
-	padding-left: 62px;
-	text-align: left;
+	/* padding-left: 62px; */
+	text-align: center;
 	display: inline-block;
 }
 
