@@ -237,6 +237,48 @@
     background-color: rgba(0, 102, 204, 0.8);
 }
 
+/* Mobile Responsiveness for Gallery Section */
+@media only screen and (max-width: 767px) {
+    .video-gallery .overlay-box {
+        position: relative;
+        max-width: 100%;
+        padding: 20px 15px;
+        margin-top: -4px;
+    }
+    
+    .video-gallery .overlay-box .text {
+        display: block !important;
+        font-size: 14px;
+        line-height: 1.6em;
+    }
+    
+    .video-gallery .overlay-box .overlay-inner h3 {
+        font-size: 20px !important;
+        line-height: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .video-gallery .overlay-box {
+        padding: 15px 10px;
+    }
+    
+    .video-gallery .overlay-box .overlay-inner h3 {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .video-gallery .overlay-box .overlay-inner h3 {
+        font-size: 16px !important;
+        margin-bottom: 10px;
+    }
+    
+    .video-gallery .overlay-box .text {
+        font-size: 13px;
+    }
+}
+
 /* Fluid Section */
 .fluid-section-one {
     background-color: var(--alarm-team-blue);
